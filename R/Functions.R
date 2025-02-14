@@ -24,10 +24,5 @@ qnormmix<-function(p,mean1,sd1,mean2,sd2,mixprob){
     results<-uniroot(my.fun, interval = c(-10,10), extendInt = "yes")
     return(results$root)
   })
-  
-  
-  
   return(qmixp(p))
-  
-  
 }
